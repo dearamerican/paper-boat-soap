@@ -103,10 +103,22 @@ strong {
 /****** SOAP PAGE *********/
 
 
-.soap {
-	width: 49%; 
-	padding-bottom:20px;
+.soap, .soap2 {
+	width: 213px; 
+	padding-bottom:0px;
+	margin-bottom:4px;
 }
+
+.soap {
+	margin-right:4px;
+	}
+
+.soap, .soap2, .soap3 {
+	display:block;
+	float:left;
+	}
+	
+
 
 .container ul li {
 margin-bottom:15px;
