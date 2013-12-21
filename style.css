@@ -1,7 +1,17 @@
 
 body {
-	width: 1260;
-	font-family: arial, sans-serif; 
+	font-family: Lato, arial, sans-serif; 
+	margin:0;
+	color: #333;
+}
+
+a, a:visited {
+	color: #CBB23F;
+text-decoration:none;
+}
+
+a:hover {
+	color: #816D13;
 }
 
 .container {
@@ -9,30 +19,34 @@ body {
 }
 
 .nav {
-	padding:20px 0 100px 0;
+	padding:20px 0 50px 0;
 	margin: 0  auto; 
 	width: 430px;
+	text-align: center;
+	font-weight:300;
+	font-size:16px;
+}
+
+.nav .selected {
+	font-weight:400;
 }
 
 ul {
 	list-style-type: none;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
-	position: absolute;
+	display:inline-block;
 }
 
-li {
-	float:left;
+.nav li {
+	display: inline-block;
+	padding: 0 25px;
 }
 
 .links {
 	display:block;
-	width:60px;
 }
 
-li:nth-child(2) {
-	padding: 0 147px;
-}
 
 .footer {
 	padding: 30px 165px 0 165px;
@@ -43,18 +57,73 @@ li:nth-child(2) {
 .content {
 	width: 430px;
 	margin: 0 auto;
+	margin-top:50px;
 }
 
 .water {
-	background-image: url ("images/exclusive-paper.png");
-	width: 12060px;
+	background-image: url("images/exclusive-paper.png");
 	height: 408px;
 	margin: 0 auto;
-
-grad {
-background: -webkit-linear-gradient(90deg, black, white); /* For Safari */
-background: -o-linear-gradient(90deg, black, white); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(90deg, black, white); /* For Firefox 3.6 to 15 */
-background: linear-gradient(90deg, black, white); /* Standard syntax */
+	margin-top:130px;
+	text-align:center;
 }
+
+.water img {
+	position:relative;
+	top: -35px;
+	}
+
+.grad {
+/*background: -webkit-linear-gradient(90deg, black, white);  
+background: -o-linear-gradient(90deg, black, white);  
+background: -moz-linear-gradient(90deg, black, white); 
+background: linear-gradient(90deg, black, white); */
+}
+
+
+/****** ABOUT PAGE *********/
+
+.container {
+	margin: 0 auto;
+	width: 430px;
+	font-weight:300;
+}
+
+.us {
+	padding: 20px 0px;
+	width: 430px;
+	height: 430px;
+}
+
+strong {
+	font-weight: 400;
+}
+
+
+/****** SOAP PAGE *********/
+
+
+.soap {
+	width: 49%; 
+	padding-bottom:20px;
+}
+
+.container ul li {
+margin-bottom:15px;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+h2 {
+font-size: 15px;
+text-transform: uppercase;
+font-weight:500;
+margin-top: 24px;
+margin-bottom:8px;
+}
+
+ul span {
+text-transform: uppercase;
+font-weight:500;
+font-size: 14px;
 }
